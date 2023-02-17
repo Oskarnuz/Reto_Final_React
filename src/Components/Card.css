@@ -1,0 +1,145 @@
+h1 {
+    margin: 0.5rem;
+    font-size: 25px;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgb(25, 29, 52);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(20, 20, 20, 0.3);
+}
+button {
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    .header {
+        width: 100;
+        height: 50px;
+        background-color: rgb(28, 34, 66);
+
+    }
+
+    .body-ctn {
+        width: 90%;
+        margin: 5%;
+        
+        background-color: rgb(20, 30, 61);
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+    .input-ctn {
+        width: 100;
+        height: 50px;
+        background-color: rgb(33, 45, 84);;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+        .input-ctn input {
+            flex-grow: 1;
+            height:2rem;
+            box-sizing: border-box;
+        }
+
+        .input-ctn button {
+            border: none;
+            background-color: green;
+            height: 2rem;
+            color: white;
+            font-weight: bolder;
+            transition: all 0.3s ease-in-out; 
+            display:flex;
+            align-items: center;
+            justify-self: space-evenly;
+            gap: 0.2rem;
+            
+        }
+
+        .input-ctn button img{
+            width: 20%;
+        }
+
+        .input-ctn button:disabled{
+            background-color: gray;
+            opacity: 0.8
+        }
+
+
+    ul {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        gap: 0.5rem;
+    }
+    li {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+        background-color: rgb(43, 48, 77);
+        transition: all 0.3s ease-in-out;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 0.25rem;
+    }
+
+    li:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.05);
+        background-color: rgb(59, 66, 105);
+        box-shadow: 0 0 12px rgba(239, 239, 239, 0.2);
+    }
+
+    li p {
+        flex-grow: 1;
+        text-align: left;
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    li button{
+        border: none;
+        height:2rem;
+        width: 2rem;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        
+    }
+    
+    li button:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgb(23, 124, 213);
+    }  
+
+    .add {
+        background-color: green;
+    }
+
+
+
+    .edit {
+        background-color: rgb(47, 127, 176);
+
+    }
+    .delete {
+        background-color:brown;
+    }
+
+    img {
+        filter: brightness(0) invert(1);
+    }
